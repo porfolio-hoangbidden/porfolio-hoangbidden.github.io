@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/imgs/color-logo.png" />
+
+  <!-- menu -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/gsap.min.js"></script>
+    <!--  -->
+  <title>HB- Trang Chủ</title>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css'><link rel="stylesheet" href="./css/style-animatebg.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div class="container">
+    
+    
+    <div class="menu">
+      <div class="logo">
+        <a href="/index.html"><img src="/imgs/white- logo.png" alt=""></a>
+        <div class="social-icon">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-behance"></i>
+        </div>
+      </div>
+          <div class="container--menu__codegrid">
+            <div class="button--menu__codegrid" onclick="toggle()"><img style="width:2vw" src="/imgs/menu-icon.png" alt=""></div>
+
+        </div>
+        <div class="menu--menu__codegrid">
+            <div class="button--menu__codegrid" onclick="togglec()"><img style="width:2vw" src="/imgs/close.png" alt=""></div>
+
+            <ul class="ul">
+                <li class="li1 li"><a href="/index.html"><span><h6>01</h6><h1>Trang Chủ</h1><h5>Tóm Tắt </h5></span></a></li>
+                <li class="li2 li"> <a href="/sản phẩm/sanpham.html" target="_blank"><span><h5>Thiết Kế, Đồ Hoạ </h5><h6>02</h6><h1>Sản Phẩm</h1></span></a></li>
+                <li class="li3 li"><a href="/responsive-contact-form/contact.html" target="_blank"><span><h6>03</h6><h1>Liên Lạc</h1><h5>Thông Tin </h5></span></a></li>
+                <li class="li4 li"><a href="/Phong cách/dist/phongcach.html" target="_blank"><span><h6>04</h6><h1>Phong Cách Thiết Kế</h1></span></a></li>
+                <div class="bg1 bg"></div>
+                <div class="bg2 bg"></div>
+                <div class="bg3 bg"></div>
+                <div class="bg4 bg"></div>
+            </ul>
+            
+        </div>
+      </div>  
+
+  <div class="content content1">
+    <img id="caidauto" src="/imgs/home-img1.png" alt="">
+    <div class="content1_textchinh">
+      <h1>Mục Tiêu Lớn <br>  Thành Công Lớn</h1>
+    </div>
+    <div class="content1_textphu">
+      <div class="divbutton" > <button><h3>Tìm hiểu ngay</h3></button></div>
+      <h3>Mỗi Sản Phẩm Thiết Kế Sẽ Lại Là Một <br> Minh Chứng Cho Nỗ Lực Của Ta</h3>
+      <p>Hoàng Bidden</p>
+    </div>
+    <div class="divbackground">
+      <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+          
+        </div>
+        
+</div>
+  </div>
+  <div class="content content2">
+      <h3>Vấn đề thật đơn giản.</h3>
+      <h3>Luôn Nghiêm Túc Với Công Việc</h3>
+      <h3>Lắng Nghe Khách Hàng</h3>
+      <p>Qua nhiều năm học hỏi tìm tòi liên tục về mỹ thuật, 3 điều trên là những 
+        điều tôi đúc kết lại trong lòng. Bất kì khối công việc nào cũng có cách giải
+         quyết của nó và tôi sẽ cùng khách hàng tạo ra những sản phẩm khiến bất cứ ai 
+        chiêm nghưỡng phải dành sự trân trọng cho sản phẩm của chúng ta</p>
+        <div class="divbutton" > <button><h3>Tìm hiểu ngay</h3></button></div>
+  </div>
+
+  <div class="content content3">
+    <div class="app">
+
+      <div class="cardList">
+        <button class="cardList__btn btn btn--left">
+          <div class="icon1234">
+            <svg>
+              <use xlink:href="#arrow-left"></use>
+            </svg>
+          </div>
+        </button>
+    
+        <div class="cards__wrapper">
+          <div class="card current--card">
+            <div class="card__image">
+              <img src="/imgs/sp2.jpg" alt="" />
+            </div>
+          </div>
+    
+          <div class="card next--card">
+            <div class="card__image">
+              <img src="/imgs/sp1.jpg" alt="" />
+            </div>
+          </div>
+    
+          <div class="card previous--card">
+            <div class="card__image">
+              <img src="/imgs/sp3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+    
+        <button class="cardList__btn btn btn--right">
+          <div class="icon1234">
+            <svg>
+              <use xlink:href="#arrow-right"></use>
+            </svg>
+          </div>
+        </button>
+      </div>
+    
+      <div class="infoList">
+        <div class="info__wrapper">
+          <div class="info current--info">
+            <h1 class="text name">Thiết Kế Đồ Hoạ</h1>
+            <h4 class="text location">Poster - Banner</h4>
+            <p class="text description">Sản phẩm được hoàn thiện năm 2019-2021</p>
+          </div>
+          
+          
+    
+          <div class="info next--info">
+            <h1 class="text name">Nhiếp Ảnh</h1>
+            <h4 class="text location">Nghệ Thuật - Thương Mại</h4>
+            <p class="text description">Cảm hứng đến từ bất cứ nơi đâu</p>
+          </div>
+    
+          <div class="info previous--info">
+            <h1 class="text name">UI-Ux Designs</h1>
+            <h4 class="text location">Website - App</h4>
+            <p class="text description">Nơi bạn có thể hoàn toàn tin tưởng</p>
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="app__bg">
+        <div class="app__bg__image current--image">
+          <img src="/imgs/sp2.jpg" alt="" />
+        </div>
+        <div class="app__bg__image next--image">
+          <img src="/imgs/sp1.jpg" alt="" />
+        </div>
+        <div class="app__bg__image previous--image">
+          <img src="/imgs/sp3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="loading__wrapper">
+      <div class="loader--text">Loading...</div>
+      <div class="loader">
+        <span></span>
+      </div>
+    </div>
+    
+    
+    <svg class="icons" style="display: none;">
+      <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+        <polyline points='328 112 184 256 328 400'
+               style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+      </symbol>
+      <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+        <polyline points='184 112 328 256 184 400'
+               style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+      </symbol>
+    </svg>
+    
+    
+  </div>
+  <div class="content content4">
+      <div class="content4__bentren">
+        <img src="/imgs/jon-tyson-EJzxF5uwJ-o-unsplash.jpg" alt="">
+        <h1>Bạn ấn tượng chứ? <br> Khám phá nhiều hơn nữa nhé.
+        </h1>
+        <div class="divbutton" > <button><h3>CLICK CLICK</h3></button></div>
+       
+      </div>
+      <div class="content4__benduoi menu_phai_benduoi">
+        <h3 class="colorwhite" >2021@Web page Design - HTML5/CSS</h3>
+        <h2 class="colorwhite">Mọi thứ tôi có là thứ bạn cần</h2>
+        <h3 class="colorwhite">kimtacbun@gmail.com <i class="fa fa-phone"></i> 0338341000</h3>
+      </div>
+      
+      
+      
+  </div>
+
+  
+
+
+</div>
+<!-- cursor -->
+
+<div class="cursor">
+  <div class="cursor__ball cursor__ball--big ">
+    <svg height="30" width="30">
+      <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+    </svg>
+  </div>
+  
+  <div class="cursor__ball cursor__ball--small">
+    <svg height="10" width="10">
+      <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+    </svg>
+  </div>
+</div>
+ 
+
+<!-- script cursor -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script><script  src="js/script-cursor.js"></script>
+
+<!-- scriptmenu -->
+
+
+<script>
+  var tl = gsap.timeline({
+      paused: "true"
+  });
+  tl.to(".menu--menu__codegrid",{
+      duration: 1,
+      x: "0%",
+      ease: Expo.easeInOut
+  });
+  tl.fromTo(".li",{
+      y:"-100vw",
+      opacity: 0
+  },{
+      duration: .5,
+      opacity: 1,
+      y: "0%",
+      stagger: 0.25
+  });
+  tl.fromTo(".social-li",{
+      y:"-50vw",
+      opacity: 0
+  },{
+      duration:0.8,
+      opacity: 1,
+      stagger: 0.25,
+      ease: Expo.easeOut
+  },
+  "-=0.5");
+  
+  function toggle(){
+      tl.play();
+  }
+  function togglec(){
+      tl.reverse();
+  }
+
+</script>
+<!--  -->
+
+  <script  src="./js/script.js"></script>
+
+  <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
+<script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
+<script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script><script  src="./js/script-animatebg.js"></script>
+
+<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="/js/script-sanpham.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/imgs/color-logo.png" />
+
+  <title>HB- Sản Phẩm</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://use.typekit.net/skn8ash.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css'><link rel="stylesheet" href="./style-sanpham.css">
+
+
+</head>
+<body>
+<!-- menu -->
+<div class="menu">
+  <div class="logo">
+    <a href="/index.html"><img src="/imgs/white- logo.png" alt=""></a>
+    <div class="social-icon">
+      <a href="https://www.facebook.com/iqvocuc/"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/llevi_h/"></a><i class="fa fa-instagram"></i></a>
+      <a href="https://www.behance.net/"></a><i class="fa fa-behance"></i></a>
+    </div>
+  </div>
+</div>  
+
+<!-- partial:index.partial.html -->
+<div class="container">
+    <section data-bgcolor="#bcb8ad" data-textcolor="#032f35">
+      <div >
+        <div id="dichuyenxi"><h1  data-scroll data-scroll-speed="1"><span>porfolio</span> <span>SẢN</span> <span>PHẨM</span></h1></div>
+        <p id="pscroll" data-scroll data-scroll-speed="2" data-scroll-delay="0.2">đây là các dự án được hoàn thành từ năm 2019 - 2021</p>
+      </div>
+
+    </section>
+
+    <section id="sectionPin">
+      <div class="pin-wrap">
+        <h2 style="min-width:60vw">Nếu bạn làm việc tốt cho khách hàng tốt, nó sẽ dẫn đến công việc tốt khác cho khách hàng tốt khác.
+           Nếu bạn làm việc xấu cho khách hàng xấu, điều đó sẽ dẫn đến công việc tồi tệ khác cho những khách hàng xấu khác.</h2>
+        <img src="/imgs/content2-image1.png" alt="">
+        <img src="/imgs/content2-image2.png" alt="">
+        <img src="/imgs/content2-image3.png" alt="">
+        <img src="/imgs/content2-image4.png" alt="">
+        <img src="/imgs/content2-image5.png" alt="">
+        <img src="/imgs/content2-image6.png" alt="">
+        <img src="/imgs/content2-image7.png" alt="">
+        <img src="/imgs/content2-image8.png" alt="">
+        <img src="/imgs/content2-image9.png" alt="">
+        <img src="/imgs/content2-image10.png" alt="">
+        <img src="/imgs/content2-image11.png" alt="">
+        <img src="/imgs/content2-image13.png" alt="">
+       
+
+
+
+      </div>
+    </section>
+    <section data-bgcolor="#e3857a" data-textcolor="#f1dba7"><img style=" width:23vw;"src="/imgs/yana-nikulina-1HtzdbptBr4-unsplash.jpg" alt="">
+      <h2 data-scroll data-scroll-speed="1" class="credit"><a href="https://www.facebook.com/iqvocuc/" target="_blank">Made by <br>  Hoàng Bidden</a></h2>
+    </section>
+  </div>
+
+
+<!-- menu -->
+  <script>
+    var tl = gsap.timeline({
+        paused: "true"
+    });
+    tl.to(".menu--menu__codegrid",{
+        duration: 1,
+        x: "0%",
+        ease: Expo.easeInOut
+    });
+    tl.fromTo(".li",{
+        y:"-100vw",
+        opacity: 0
+    },{
+        duration: .5,
+        opacity: 1,
+        y: "0%",
+        stagger: 0.25
+    });
+    tl.fromTo(".social-li",{
+        y:"-50vw",
+        opacity: 0
+    },{
+        duration:0.8,
+        opacity: 1,
+        stagger: 0.25,
+        ease: Expo.easeOut
+    },
+    "-=0.5");
+    
+    function toggle(){
+        tl.play();
+    }
+    function togglec(){
+        tl.reverse();
+    }
+    
+  
+  </script>
+
+  <!-- cursor -->
+  !-- partial:index.partial.html -->
+<div class="cursor">
+  <div class="cursor__ball cursor__ball--big ">
+    <svg height="30" width="30">
+      <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+    </svg>
+  </div>
+  
+  <div class="cursor__ball cursor__ball--small">
+    <svg height="10" width="10">
+      <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+    </svg>
+  </div>
+</div>
+ 
+
+
+</div>
+
+<!-- script cursor -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script><script  src="js/script-cursor.js"></script>
+
+<!-- partial -->
+  <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js'></script><script  src="./script-sanpham.js"></script>
+<!-- some -->
+
+
+ 
+</body>
+</html>
