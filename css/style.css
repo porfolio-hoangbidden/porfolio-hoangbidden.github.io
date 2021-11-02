@@ -1,3 +1,18 @@
+@font-face {
+  font-family:MHK_Kenjo;
+  src: url(/fonts/MHK_Kenjo\ final\ 2.otf) format("opentype") ;
+}
+
+@font-face {
+  font-family:Bestagrach;
+  src: url(/fonts/SVN-Bestagrach.otf) format("opentype") ;
+}
+@font-face {
+  font-family:squid;
+  src: url(/fonts/Fz\ Game\ Of\ Squids\ ver201\ .ttf) format('truetype') ;
+}
+
+
 html,
 body {
   height: 100%;
@@ -149,6 +164,8 @@ p {
   list-style-type: none;
   line-height: 0px;
   pointer-events: visible;
+  font-family:Bestagrach;
+  
 
 }
 .ul li a{
@@ -156,12 +173,12 @@ p {
   color: white;
   transition: 2s;
   font-family: 'Monument';
-  font-size: 50px;
+  font-size: 45px;
   text-transform: uppercase;
   font-weight: 500;
   mix-blend-mode: difference;
   z-index: 100000;
-
+  font-family:squid;
 
 }
 .ul>li>a>span{
@@ -175,10 +192,12 @@ span>h1,h5,h6{
 }
 span>h5{
   font-size:1.8vw;
+  font-family:Bestagrach;
   
 }
 span>h6{
   font-size: 1.3vw;
+  font-family:Bestagrach;
 }
 
 .bg{
@@ -324,6 +343,7 @@ span>h6{
   font-size: 2.7vw;
   letter-spacing: 0px;;
   font-weight: 200;
+  font-family:squid;
 }
 .content1_textphu{
   
@@ -335,6 +355,7 @@ span>h6{
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  
   
   width:85vw;
 
