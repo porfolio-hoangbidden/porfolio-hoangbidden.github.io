@@ -29,7 +29,8 @@ body {
 	cursor:none;
 }
 .content{
-	width:110%
+	
+	width:570vw;
 }
 
 .gallery {
@@ -137,7 +138,7 @@ body {
 
 .gallery__text {
 	font-size: 10vw;
-	line-height: 0.3;
+	line-height: 0.35	;
 	margin: 0 3vw 0 3vw;
 	text-transform: lowercase;
 	color: transparent;
