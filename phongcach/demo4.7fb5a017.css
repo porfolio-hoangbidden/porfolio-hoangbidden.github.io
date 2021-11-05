@@ -1,3 +1,16 @@
+@font-face {
+  font-family:MHK_Kenjo;
+  src: url(/fonts/MHK_Kenjo\ final\ 2.otf) format("opentype") ;
+}
+
+@font-face {
+  font-family:Bestagrach;
+  src: url(/fonts/SVN-Bestagrach.otf) format("opentype") ;
+}
+@font-face {
+  font-family:squid;
+  src: url(/fonts/Fz\ Game\ Of\ Squids\ ver201\ .ttf) format('truetype') ;
+}
 body {
 	--color-text: #4a525e;
 	--color-bg: #000000;
@@ -79,7 +92,7 @@ body {
 .gallery__item-number,
 .gallery__item-title,
 .gallery__text {
-	font-family: moret, serif;
+	font-family: monospace;
 	font-weight: 800;
 	font-style: italic;
 	align-self: center;
@@ -120,15 +133,18 @@ body {
 }
 
 .gallery__text {
-	font-size: 13vw;
+	font-size: 10vw;
 	line-height: 0.7;
-	margin: 0 10vw 0 14vw;
+	margin: 0 8vw 0 3vw;
 	text-transform: lowercase;
 	color: transparent;
 	-webkit-text-stroke: 1px var(--color-gallery-text);
 	text-stroke: 1px var(--color-gallery-text);
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
+	font-family:squid;
+	font-weight: 400;
+	
 }
 
 .gallery__text-inner {
