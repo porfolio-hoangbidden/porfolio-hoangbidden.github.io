@@ -13,11 +13,29 @@
 }
 
 
+
+
 html,
 body {
   height: 100%;
   overflow: hidden;
   cursor:none;
+}
+body{
+  --color-text: #4a525e;
+	--color-bg: #000000;
+	--color-link: #b2366f;
+	--color-link-hover: #fff;
+	--color-gallery-title: #4a525e;
+	--color-gallery-number: #54d7e4;
+	--color-gallery-link: #fff;
+	--color-gallery-link-bg: #e95499;
+	--color-gallery-link-hover: #e95499;
+	--color-gallery-link-bg-hover: #fff;
+	--color-gallery-text: #e95499;
+	--cursor-stroke: none;
+	--cursor-fill: #79e2e6;
+	--cursor-stroke-width: 1px;
 }
 *{
   padding:0;
@@ -148,6 +166,7 @@ p {
   color: white;
 
 }
+
 .ul{
   position: absolute;
   left: 10%;
@@ -192,12 +211,13 @@ span>h1,h5,h6{
 }
 span>h5{
   font-size:1.8vw;
-  font-family:Bestagrach;
+  font-family: monospace;
   
 }
 span>h6{
   font-size: 1.3vw;
   font-family:Bestagrach;
+  font-weight: 100 !important ;
 }
 
 .bg{
@@ -255,10 +275,17 @@ span>h6{
   transition: 1s ease-in-out;
 }
 .ul li a:hover{
-  transition: 2s;
+  transition: 0.5s;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px white;
   font-style: italic;
+  text-transform: lowercase;
+	color: transparent;
+	-webkit-text-stroke: 1px var(--color-gallery-text);
+	text-stroke: 1px var(--color-gallery-text);
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+	font-weight: 400;
 }
 
 .ngonngu>a{

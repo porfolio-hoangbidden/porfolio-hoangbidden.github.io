@@ -18,6 +18,22 @@ body {
   padding-bottom: 100px;
   cursor:none;
 }
+body{
+  --color-text: #4a525e;
+	--color-bg: #000000;
+	--color-link: #b2366f;
+	--color-link-hover: #fff;
+	--color-gallery-title: #4a525e;
+	--color-gallery-number: #54d7e4;
+	--color-gallery-link: #fff;
+	--color-gallery-link-bg: #e95499;
+	--color-gallery-link-hover: #e95499;
+	--color-gallery-link-bg-hover: #fff;
+	--color-gallery-text: #e95499;
+	--cursor-stroke: none;
+	--cursor-fill: #79e2e6;
+	--cursor-stroke-width: 1px;
+}
 
 #contact {
   margin-top:10vh;
@@ -34,6 +50,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 6px;
   font-family:squid !important;
+  text-transform: lowercase;
+	color: transparent;
+	-webkit-text-stroke: 1px var(--color-gallery-text);
+	text-stroke: 1px var(--color-gallery-text);
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+	font-weight: 400;
 }
 
 .contact-wrapper {
@@ -271,7 +294,7 @@ hr {
 }
 .btn-primary {
   color: #fff;
-  background-color: #2d29f7 !important;
+  background-color:var(--color-gallery-text) !important;
   border-color: #2e6da4!important;
 }
 
